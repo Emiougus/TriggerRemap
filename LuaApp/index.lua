@@ -113,7 +113,6 @@ while true do
     Font.print(aBoy, 780, 490, "LOADING", white)
 
     Font.print(aBoyW, 10, 100, "TriggerRemap", Color.new(0, 0, 1))
-    --XValTitleLocText = stringLength(10, 100, 500, 0, 255, 0, 72)
     XValTitleLocText = stringLength(10, 100, 500, 0, 0, 1, 72)
 
     Font.setPixelSizes(aBoyI, 25)
@@ -224,7 +223,7 @@ local metatable = {__call = function(table, key, xVal1, yVal1, xVal2, yVal2)
     return table.cache[key]
 end }
 
--- Trigger Remap Dialog - Could do with a rewrite to fix needing to initiate graphics twice
+-- Trigger Remap Dialog
 function triggerRemapDialog(trigger)
     local done = false
     repeat
@@ -338,16 +337,11 @@ function resetDialog(cor)
     until (i == true)
 end
 
--- L2=X:500,Y:350;R2=X:1300,Y:350
-
--- ([^L2=X:]%d+) Returns 500
-
 while true do
 
     Graphics.initBlend()
     Screen.clear()
 
-    --loadFonts()
     drawScreen()
 
     setmetatable(didTouchFront, metatable)
@@ -387,16 +381,7 @@ while true do
         end
     end
 
-    -- (x1 >= 230 and y1 >= 340 and x1 <= 430 and y1 <= 430)
-
     Graphics.termBlend()
     Screen.flip()
-    --unloadFonts()
-
-
-    -- Graphics.debugPrint(10, 10, ("R2 Y Cord: " .. R2Y), white)
-    -- Graphics.debugPrint(10, 30, ("R2 X Cord: " .. R2X), white)
-    -- Graphics.debugPrint(10, 50, ("L2 Y Cord: " .. L2Y), white)
-    -- Graphics.debugPrint(10, 70, ("L2 X Cord: " .. L2X), white)
    
 end

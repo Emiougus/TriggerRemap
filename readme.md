@@ -14,6 +14,7 @@ Configuration formatting is `L2=X:500,Y:350;R2=X:1300,Y:350`
 
 ## Known Issues
 In Ratchet and Clank 2 jumping to the side while strafing, ratchet doesn't always perform a sideways flip
+PSTV Support hasn't been tested, may or may not work
 
 ## Credits
 - Rinnegatamante for LPP-Vita
