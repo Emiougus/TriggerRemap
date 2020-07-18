@@ -16,9 +16,6 @@ General Optimisation, E.G make sure using correct int datatypes -- Do this last
 #include <taihen.h>
 #define HOOKS_NUM 1
 
-#define MULTITOUCH_FRONT_NUM 6
-#define MULTITOUCH_REAR_NUM 4
-
 static uint8_t current_hook = 0;
 static SceUID hooks[HOOKS_NUM];
 static tai_hook_ref_t refs[HOOKS_NUM];
