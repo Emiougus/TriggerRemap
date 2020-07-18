@@ -3,10 +3,10 @@ Plugin for the PS Vita which allows you to remap R2/L2 to any location on the re
 
 ## How to Use
 Put 'TriggerRemap.suprx' in 'ur0:tai/' and add 'ur0:tai/TriggerRemap.suprx' under '*ALL' in your config.txt
-### Configurator App 
+### -Configurator App 
 Install TriggerRemap.vpk through vitashell
 Open the TriggerRemap configurator and create the config file with the create button in the bottom left corner
-### Manual Config
+### -Manual Config
 Create 'TriggerRemap.txt' in 'ux0:data/'
 Configuration formatting is 'L2=X:500,Y:350;R2=X:1300,Y:350'
 
