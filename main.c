@@ -1,11 +1,3 @@
-/* 
-Shit to mess with:
-Change SCE_L2 to ctrl.lt
-Remove L2/R2 Function if game already has it bound
-Fix Font loading error -- Add to first while loop maybe?
-General Optimisation, E.G make sure using correct int datatypes -- Do this last
-*/
-
 #include <psp2/kernel/modulemgr.h>
 #include <psp2/kernel/processmgr.h>
 #include <psp2/touch.h>
