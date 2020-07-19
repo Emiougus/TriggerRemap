@@ -16,5 +16,7 @@ Configuration formatting is `L2=X:500,Y:350;R2=X:1300,Y:350`
 In Ratchet and Clank 2 jumping to the side while strafing, ratchet doesn't always perform a sideways flip
 PSTV Support hasn't been tested, may or may not work
 
+Sometimes the App will show an error about fonts not being able to be loaded, just spam X until it loads, unsure why this happens
+
 ## Credits
 - Rinnegatamante for LPP-Vita
