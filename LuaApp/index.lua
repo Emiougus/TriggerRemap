@@ -17,7 +17,6 @@ eYellow = Color.new(249, 255, 125)
 ePurp = Color.new(131, 125, 255)
 pRed = Color.new(255, 125, 184)
 red = Color.new(255, 0, 0)
-green = Color.new(0, 255, 0)
 
 -- Fonts
 local aBoy = Font.load("app0:fonts/astron boy.ttf")
