@@ -20,10 +20,10 @@ red = Color.new(255, 0, 0)
 green = Color.new(0, 255, 0)
 
 -- Fonts
-aBoyI = Font.load("app0:fonts/astron boy italic.ttf")
-aBoyV = Font.load("app0:fonts/astron boy video.ttf")
-aBoyW = Font.load("app0:fonts/astron boy wonder.ttf")
-aBoy = Font.load("app0:fonts/astron boy.ttf")
+local aBoy = Font.load("app0:fonts/astron boy.ttf")
+local aBoyI = Font.load("app0:fonts/astron boy italic.ttf")
+local aBoyV = Font.load("app0:fonts/astron boy video.ttf")
+local aBoyW = Font.load("app0:fonts/astron boy wonder.ttf")
 
 -- Decide if Config File exists in Correct location
 function configLocate()
@@ -385,3 +385,8 @@ while true do
     Screen.flip()
    
 end
+
+Font.unload(aBoy)
+Font.unload(aBoyI)
+Font.unload(aBoyV)
+Font.unload(aBoyW)
